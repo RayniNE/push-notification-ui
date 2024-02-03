@@ -16,7 +16,7 @@ const urlBase64ToUint8Array = base64String => {
 
 const saveSubscription = async (subscription) => {
 
-    const response = await fetch('http://127.0.0.1:8080/subscribe', {
+    const response = await fetch('http://localhost:8080/subscribe', {
         method: 'POST',
         headers: { 'Content-type': "application/json" },
         mode: 'cors',
